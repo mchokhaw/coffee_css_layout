@@ -1,0 +1,219 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input[type=button] {
+    padding: 10px 54px;
+    background-color: rgb(111, 78, 55);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1vw;
+}
+#shipping{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    justify-content: center;
+    display: flex;
+}
+#shipping .part{
+    width: 20%;
+    height: auto;
+}
+#shipping .part p{
+    color: white;
+    font-size: 1vw;
+    font-family:'Times New Roman', Times, serif;
+}
+#shipping .part img{
+    width: 15%;
+}
+
+#head{
+    width: 100%;
+    height: auto;
+    background-color: rgb(227, 227, 227);
+}
+#head .logo{
+    width: 100%;
+    height: auto;
+}
+#head .logo img{
+    width: 15%;
+    height: auto;
+}
+#head .mainhead{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+#head .mainhead .info{
+    width: 40%;
+    height: auto;
+}
+#head .mainhead .info h1{
+    text-align: left;
+    justify-content: center;
+} 
+#head .mainhead .info p{
+    text-align: left;
+    font-size: 16px;
+}
+#head .mainhead .image{
+    width: 30%;
+    height: auto;
+}
+#head .mainhead .image img{
+    width: 60%;
+    height: auto;
+}
+#head .mainhead .detail{
+    width: 100%;
+    height: auto;
+}
+.detail h1{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.detail p{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.maincont{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4%;
+}
+.maincont .cont-image{
+    width: 40%;
+    height: auto;
+    padding-left: 15%;
+}
+.maincont .cont-image img{
+    width: 50%;
+    height: auto;
+}
+.maincont .detail1{
+    width: 50%;
+    height: auto;
+}
+.maincont .detail1 h2{
+    width: 100%;
+    height: auto;
+}
+.maincont .detail1 p{
+    width: 100%;
+    height: auto;
+    font-size: 1vw;
+}
+.maincont .detail1 h2{
+    width: 100%;
+    height: auto;
+    font-size: 1.5vw;
+}
+#cont{
+    width: 100%;
+    height: auto;
+    background-color: rgb(227, 227, 227);
+}
+#cont .product{
+    width: 100%;
+    height: auto;
+    
+}
+#cont .product h1{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+}
+#cont .prod-img{
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+}
+#cont .prod-img .head5{
+    height: auto;
+    width: 70%;
+    margin: 0 auto;
+}
+#cont .prod-img .head5 .gallery{
+    height: 40%;
+    width: 25%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    margin: 35px;
+}
+#cont .prod-img .head5 .gallery img{
+    width: 100%;
+    height: max-content;
+}
+#cont .prod-img .head5 .gallery .info{
+    height: auto;
+    width: 100%;
+}
+#cont .prod-img .head5 .gallery .info h3{
+    text-align: center;
+    font-size: 1.5vw;
+    padding: 5px;
+    text-align: left;
+}
+#cont .prod-img .head5 .gallery .info p{
+    text-align: center;
+    font-size: 1vw;
+    padding: 5px;
+    text-align: left;
+}
+#cont .prod-img .head5 .gallery .info h2{
+    text-align: center;
+    font-size: 1.5vw;
+    padding: 5px;
+    text-align: left;
+}
+.about{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-top: 50px;
+}
+.about .our-prod{
+    width: 50%;
+    height: auto;
+}
+.about .our-prod h1{
+   text-align: center;
+}
+.about .our-prod p{
+    text-align: justify;
+    padding-left:170px ;
+}
+.about .our-img{
+    width: 35%;
+    height: auto;
+    padding-left: 70px;
+    padding-bottom: 30px;
+} 
+.about .our-img img{
+    width: 100%;
+    height: auto;
+} 
+#fot{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+#fot p{
+    color: white;
+    text-align: center;
+    font-size: 1vw;
+    padding-top: 15px;
+}
